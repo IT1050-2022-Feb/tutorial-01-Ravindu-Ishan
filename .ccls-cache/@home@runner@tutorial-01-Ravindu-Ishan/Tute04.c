@@ -8,9 +8,9 @@ your solution.*/
 
 #include <stdio.h>
 
-int minimum(int a1, int b1);  // declaration min function
-int maximum(int a2, int b2);  // declartoin max function
-int multiply(int a3, int b3); // declaration multiply function
+int minimum(int a1, int b1);
+int maximum(int a2, int b2);
+int multiply(int a3, int b3);
 
 int main() {
   int no1, no2;
@@ -24,21 +24,31 @@ int main() {
   return 0;
 }
 
-// function definitions
-int minimum(int a1, int b1) {
-  if (a1 < b1) {
+int minimum(int a1, int b1)
+{
+  if(a1 < b1)
+  {
     return a1;
-  } else {
+  }
+  else
+  {
     return b1;
   }
 }
 
-int maximum(int a2, int b2) {
-  if (a2 > b2) {
+int maximum(int a2, int b2)
+{
+  if(a2 > b2)
+  {
     return a2;
-  } else {
+  }
+  else
+  {
     return b2;
   }
 }
 
-int multiply(int a3, int b3) { return a3 * b3; }
+int multiply(int a3, int b3);
+{
+  
+}
